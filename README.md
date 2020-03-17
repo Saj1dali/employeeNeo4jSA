@@ -1,10 +1,7 @@
-# employeeNeo4jSA
-Author: Sajid Ali
+# Neo4j Spring data Rest API
 
 Using Neo4j graph data and Spring tools to create an application that will allow users to interact with graph data from the web interface. Please download this project locally and run directly in Eclipse. 
 
-
-# Neo4j Spring data Rest API
 The primary goal of the Spring Data project is to make it easier to build Spring-powered applications that use new data access technologies such as non-relational databases, map-reduce frameworks, and cloud based data services.
 Spring data makes it easy to use data access technologies, relational and non-relational databases, map-reduce frameworks and cloud-based data services.
 
