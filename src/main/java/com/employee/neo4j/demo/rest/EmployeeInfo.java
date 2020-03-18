@@ -12,6 +12,7 @@ public class EmployeeInfo {
 	@Id @GeneratedValue private Long id;
 	
 	private String employeeName;
+	
 	private int employeeId;
 
 	public String getEmployeeName() {
