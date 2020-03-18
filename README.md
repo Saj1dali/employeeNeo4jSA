@@ -190,7 +190,9 @@ To see the list of all employee use this command
 curl http://localhost:8080/employee
 
 Initially there are no employees in our database. Use following command to add an employee
+```curl
 curl -i -X POST -H "Content-Type: application/json" -d "{\"employeeName\":\"Roony\", \"employeeId\" : \"55\" }" http://localhost:8080/employee
+```
 
 ```JSON
 Response:
@@ -217,7 +219,9 @@ Date: Sun, 15 Mar 2020 21:24:38 GMT
 }
 ```
 In response you can also see the URI of newly created employee. You can also use other REST calls for replace(PUT), update(PATCH) and delete(DELETE). Below curl command is used to replace the name of an employee, we created earlier. 
+```curl
 curl -i -X PUT -H "Content-Type: application/json" -d "{\"employeeName\":\"Wayne Rooney\", \"employeeId\" : \"20\" }" http://localhost:8080/employee/46
+```
 ```JSON
 Reposne:
 HTTP/1.1 200
